@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div id="box">
+    <div class="cover">
+        <img src="{{ url_for('static', filename='image.jpg') }}">
+        <h1>Shemar Ennis</h1>
+        <p>@Sinclair_Ennis</p>
+        <p>Tower Isle, Jamaica</p>
+        <p>Joined {{date}}</p>
+    </div>
+    <div class="des">
+        <p>Im a gamer,archer, and a leader. My goals are to be a great business man 
+            ,a great programmer,an amazing graphic designer and a great father to my
+            future family. The sky is the limit but i wish to go beyond</p>
+            
+            
+        <ul>
+            <span>
+                <li>
+                    30
+                </li>
+                <li>
+                    1060
+                </li>
+                <li>
+                    975
+                </li>
+            </span>
+            <li>Post</li>
+            <li>Following</li>
+            <li>Followers</li>
+        </ul>
+        <button>Follow</button>
+    </div>
+{% endblock %}
+            
+ 
